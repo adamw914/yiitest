@@ -69,7 +69,7 @@ class UsersController extends Controller
                         $_POST['Users']['confpass']=  md5($_POST['Users']['confpass']);
 			$model->attributes=$_POST['Users'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('/site/login'));
 		}
 
 		$this->render('create',array(
