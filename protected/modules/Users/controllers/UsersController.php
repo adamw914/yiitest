@@ -27,16 +27,12 @@ class UsersController extends Controller
 	public function accessRules()
 	{
 		return array(
-			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
-				'users'=>array('*'),
+			array('allow',  
+				'actions'=>array('create'),
+				'users'=>array('?'),
 			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
-				'users'=>array('@'),
-			),
-			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
+			array('allow',
+				'actions'=>array('admin','delete','view','update','index', 'create'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -70,6 +66,7 @@ class UsersController extends Controller
 		if(isset($_POST['Users']))
 		{
                         $_POST['Users']['password']=  md5($_POST['Users']['password']);
+                        $_POST['Users']['confpass']=  md5($_POST['Users']['confpass']);
 			$model->attributes=$_POST['Users'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
@@ -94,6 +91,7 @@ class UsersController extends Controller
 		if(isset($_POST['Users']))
 		{
                         $_POST['Users']['password']=  md5($_POST['Users']['password']);
+                        $_POST['Users']['confpass']=  md5($_POST['Users']['confpass']);
 			$model->attributes=$_POST['Users'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));

@@ -26,6 +26,12 @@
 		<?php echo $form->passwordField($model,'password',array('size'=>60,'maxlength'=>60, 'value'=>'')); ?>
 		<?php echo $form->error($model,'password'); ?>
 	</div>
+        
+        <div class="row">
+		<?php echo $form->labelEx($model,'confirm password'); ?>
+		<?php echo $form->passwordField($model,'confpass',array('size'=>60,'maxlength'=>60, 'value'=>'')); ?>
+		<?php echo $form->error($model,'confpass'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'email'); ?>

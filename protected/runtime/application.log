@@ -1313,3 +1313,1657 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/yiitest/index.php/Users/suers
 ---
+2013/03/09 00:53:28 [error] [exception.CException] exception 'CException' with message 'Property "Users.confpass" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(159): CComponent->__set('confpass', '')
+#1 D:\xampp\htdocs\yiit\framework\base\CModel.php(471): CActiveRecord->__set('confpass', '')
+#2 D:\xampp\htdocs\yiit\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#3 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(159): CComponent->__set('attributes', Array)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CActiveForm.php(834): CActiveRecord->__set('attributes', Array)
+#5 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(170): CActiveForm::validate(Object(Users))
+#6 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(68): UsersController->performAjaxValidation(Object(Users))
+#7 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#8 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('create')
+#17 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/cre...')
+#18 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/create
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 00:53:30 [error] [exception.CException] exception 'CException' with message 'Property "Users.confpass" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(159): CComponent->__set('confpass', '')
+#1 D:\xampp\htdocs\yiit\framework\base\CModel.php(471): CActiveRecord->__set('confpass', '')
+#2 D:\xampp\htdocs\yiit\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#3 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(159): CComponent->__set('attributes', Array)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CActiveForm.php(834): CActiveRecord->__set('attributes', Array)
+#5 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(170): CActiveForm::validate(Object(Users))
+#6 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(68): UsersController->performAjaxValidation(Object(Users))
+#7 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#8 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('create')
+#17 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/cre...')
+#18 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/create
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 00:53:32 [error] [exception.CException] exception 'CException' with message 'Property "Users.confpass" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(159): CComponent->__set('confpass', 'adam2')
+#1 D:\xampp\htdocs\yiit\framework\base\CModel.php(471): CActiveRecord->__set('confpass', 'adam2')
+#2 D:\xampp\htdocs\yiit\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#3 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(159): CComponent->__set('attributes', Array)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CActiveForm.php(834): CActiveRecord->__set('attributes', Array)
+#5 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(170): CActiveForm::validate(Object(Users))
+#6 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(68): UsersController->performAjaxValidation(Object(Users))
+#7 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#8 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('create')
+#17 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/cre...')
+#18 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/create
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 00:53:38 [error] [exception.CException] exception 'CException' with message 'Property "Users.confpass" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(159): CComponent->__set('confpass', 'adam2')
+#1 D:\xampp\htdocs\yiit\framework\base\CModel.php(471): CActiveRecord->__set('confpass', 'adam2')
+#2 D:\xampp\htdocs\yiit\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#3 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(159): CComponent->__set('attributes', Array)
+#4 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(73): CActiveRecord->__set('attributes', Array)
+#5 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('create')
+#15 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/cre...')
+#16 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/create
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 01:07:22 [error] [exception.CException] exception 'CException' with message 'Property "Users.confpass" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(159): CComponent->__set('confpass', '')
+#1 D:\xampp\htdocs\yiit\framework\base\CModel.php(471): CActiveRecord->__set('confpass', '')
+#2 D:\xampp\htdocs\yiit\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#3 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(159): CComponent->__set('attributes', Array)
+#4 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(73): CActiveRecord->__set('attributes', Array)
+#5 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('create')
+#15 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/cre...')
+#16 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/create
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 01:08:46 [warning] [application] Failed to set unsafe attribute "confpass" of "Users".
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (73)
+in D:\xampp\htdocs\yiitest\index.php (13)
+2013/03/09 01:22:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/del...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/delete/id/6
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/view/id/6
+---
+2013/03/09 01:24:34 [warning] [application] Failed to set unsafe attribute "confpass" of "Users".
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (170)
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (68)
+in D:\xampp\htdocs\yiitest\index.php (13)
+2013/03/09 01:24:40 [warning] [application] Failed to set unsafe attribute "confpass" of "Users".
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (170)
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (68)
+in D:\xampp\htdocs\yiitest\index.php (13)
+2013/03/09 01:24:41 [warning] [application] Failed to set unsafe attribute "confpass" of "Users".
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (170)
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (68)
+in D:\xampp\htdocs\yiitest\index.php (13)
+2013/03/09 01:24:43 [warning] [application] Failed to set unsafe attribute "confpass" of "Users".
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (170)
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (68)
+in D:\xampp\htdocs\yiitest\index.php (13)
+2013/03/09 01:24:49 [warning] [application] Failed to set unsafe attribute "confpass" of "Users".
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (170)
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (68)
+in D:\xampp\htdocs\yiitest\index.php (13)
+2013/03/09 01:25:02 [warning] [application] Failed to set unsafe attribute "confpass" of "Users".
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (170)
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (68)
+in D:\xampp\htdocs\yiitest\index.php (13)
+2013/03/09 01:25:05 [warning] [application] Failed to set unsafe attribute "confpass" of "Users".
+in D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php (73)
+in D:\xampp\htdocs\yiitest\index.php (13)
+2013/03/09 01:34:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 01:34:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+---
+2013/03/09 01:35:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/index
+---
+2013/03/09 01:35:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/index
+---
+2013/03/09 01:35:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('delete')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/del...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/delete/id/5
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/view/id/5
+---
+2013/03/09 01:38:40 [error] [exception.CException] exception 'CException' with message 'Property "CCompareValidator.compare" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\validators\CValidator.php(189): CComponent->__set('compare', 'confpass')
+#1 D:\xampp\htdocs\yiit\framework\base\CModel.php(286): CValidator::createValidator('compare', Object(Users), 'password', Array)
+#2 D:\xampp\htdocs\yiit\framework\base\CModel.php(260): CModel->createValidators()
+#3 D:\xampp\htdocs\yiit\framework\base\CModel.php(303): CModel->getValidators('username')
+#4 D:\xampp\htdocs\yiit\framework\web\helpers\CHtml.php(1237): CModel->isAttributeRequired('username')
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CActiveForm.php(562): CHtml::activeLabelEx(Object(Users), 'username', Array)
+#6 D:\xampp\htdocs\yiitest\protected\modules\Users\views\users\_form.php(19): CActiveForm->labelEx(Object(Users), 'username')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#9 D:\xampp\htdocs\yiit\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#10 D:\xampp\htdocs\yiitest\protected\modules\Users\views\users\create.php(18): CController->renderPartial('_form', Array)
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#12 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiit\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#14 D:\xampp\htdocs\yiit\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#15 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(80): CController->render('create', Array)
+#16 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#24 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('create')
+#26 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/cre...')
+#27 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/create
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/admin
+---
+2013/03/09 01:38:41 [error] [exception.CException] exception 'CException' with message 'Property "CCompareValidator.compare" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\validators\CValidator.php(189): CComponent->__set('compare', 'confpass')
+#1 D:\xampp\htdocs\yiit\framework\base\CModel.php(286): CValidator::createValidator('compare', Object(Users), 'password', Array)
+#2 D:\xampp\htdocs\yiit\framework\base\CModel.php(260): CModel->createValidators()
+#3 D:\xampp\htdocs\yiit\framework\web\helpers\CHtml.php(1964): CModel->getValidators('id')
+#4 D:\xampp\htdocs\yiit\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(Users), 'id', Array)
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(Users), 'id', Array)
+#6 D:\xampp\htdocs\yiitest\protected\modules\Users\views\users\_search.php(16): CActiveForm->textField(Object(Users), 'id')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#9 D:\xampp\htdocs\yiit\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#10 D:\xampp\htdocs\yiitest\protected\modules\Users\views\users\admin.php(40): CController->renderPartial('_search', Array)
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#12 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiit\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#14 D:\xampp\htdocs\yiit\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#15 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(144): CController->render('admin', Array)
+#16 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): UsersController->actionAdmin()
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#24 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#26 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#27 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#28 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users
+---
+2013/03/09 01:41:15 [error] [exception.CException] exception 'CException' with message 'Property "Users.as" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(143): CComponent->__get('as')
+#1 D:\xampp\htdocs\yiit\framework\validators\CCompareValidator.php(83): CActiveRecord->__get('as')
+#2 D:\xampp\htdocs\yiit\framework\validators\CValidator.php(213): CCompareValidator->validateAttribute(Object(Users), 'as')
+#3 D:\xampp\htdocs\yiit\framework\base\CModel.php(159): CValidator->validate(Object(Users), NULL)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CActiveForm.php(835): CModel->validate(NULL)
+#5 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(170): CActiveForm::validate(Object(Users))
+#6 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(68): UsersController->performAjaxValidation(Object(Users))
+#7 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#8 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('create')
+#17 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/cre...')
+#18 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#19 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/create
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 01:41:18 [error] [exception.CException] exception 'CException' with message 'Property "Users.as" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(143): CComponent->__get('as')
+#1 D:\xampp\htdocs\yiit\framework\validators\CCompareValidator.php(83): CActiveRecord->__get('as')
+#2 D:\xampp\htdocs\yiit\framework\validators\CValidator.php(213): CCompareValidator->validateAttribute(Object(Users), 'as')
+#3 D:\xampp\htdocs\yiit\framework\base\CModel.php(159): CValidator->validate(Object(Users), NULL)
+#4 D:\xampp\htdocs\yiit\framework\db\ar\CActiveRecord.php(794): CModel->validate(NULL)
+#5 D:\xampp\htdocs\yiitest\protected\modules\Users\controllers\UsersController.php(74): CActiveRecord->save()
+#6 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): UsersController->actionCreate()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#14 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('create')
+#16 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/cre...')
+#17 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/create
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 02:06:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view/id/8
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/site/login
+---
+2013/03/09 02:10:35 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.admin" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('admin')
+#1 D:\xampp\htdocs\yiitest\protected\views\layouts\main.php(37): CWebUser->__get('admin')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 D:\xampp\htdocs\yiit\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\yiitest\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(784): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('')
+#19 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiitest/index.php
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/site/login
+---
+2013/03/09 02:12:13 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isAdmin" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('isAdmin')
+#1 D:\xampp\htdocs\yiitest\protected\views\layouts\main.php(37): CWebUser->__get('isAdmin')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 D:\xampp\htdocs\yiit\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\yiitest\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(784): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('')
+#19 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiitest/index.php
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/site/login
+---
+2013/03/09 02:14:26 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isAdmin" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('isAdmin')
+#1 D:\xampp\htdocs\yiitest\protected\views\layouts\main.php(37): CWebUser->__get('isAdmin')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 D:\xampp\htdocs\yiit\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\yiitest\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(784): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('')
+#19 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiitest/index.php
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/site/login
+---
+2013/03/09 02:14:28 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isAdmin" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('isAdmin')
+#1 D:\xampp\htdocs\yiitest\protected\views\layouts\main.php(37): CWebUser->__get('isAdmin')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 D:\xampp\htdocs\yiit\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\yiitest\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(784): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('')
+#19 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiitest/index.php
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/site/login
+---
+2013/03/09 02:14:40 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isAdmin" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('isAdmin')
+#1 D:\xampp\htdocs\yiitest\protected\views\layouts\main.php(37): CWebUser->__get('isAdmin')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 D:\xampp\htdocs\yiit\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\yiitest\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(784): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('')
+#19 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiitest/index.php
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/site/login
+---
+2013/03/09 02:14:41 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isAdmin" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('isAdmin')
+#1 D:\xampp\htdocs\yiitest\protected\views\layouts\main.php(37): CWebUser->__get('isAdmin')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 D:\xampp\htdocs\yiit\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\yiitest\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(784): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(32): CController->render('index')
+#14 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('')
+#19 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiitest/index.php
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/site/login
+---
+2013/03/09 02:14:42 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isAdmin" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('isAdmin')
+#1 D:\xampp\htdocs\yiitest\protected\views\layouts\main.php(37): CWebUser->__get('isAdmin')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 D:\xampp\htdocs\yiit\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\yiitest\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(784): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#14 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('login')
+#19 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiitest/index.php/site/login
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 02:14:43 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isAdmin" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('isAdmin')
+#1 D:\xampp\htdocs\yiitest\protected\views\layouts\main.php(37): CWebUser->__get('isAdmin')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 D:\xampp\htdocs\yiit\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\yiitest\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(784): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#14 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('login')
+#19 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiitest/index.php/site/login
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 02:14:44 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isAdmin" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('isAdmin')
+#1 D:\xampp\htdocs\yiitest\protected\views\layouts\main.php(37): CWebUser->__get('isAdmin')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 D:\xampp\htdocs\yiit\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\yiitest\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(784): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#14 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('login')
+#19 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiitest/index.php/site/login
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 02:14:44 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isAdmin" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('isAdmin')
+#1 D:\xampp\htdocs\yiitest\protected\views\layouts\main.php(37): CWebUser->__get('isAdmin')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 D:\xampp\htdocs\yiit\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\yiitest\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(784): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#14 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('login')
+#19 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiitest/index.php/site/login
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 02:14:44 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isAdmin" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('isAdmin')
+#1 D:\xampp\htdocs\yiitest\protected\views\layouts\main.php(37): CWebUser->__get('isAdmin')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yiit\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 D:\xampp\htdocs\yiit\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\yiitest\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(784): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#14 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('login')
+#19 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiitest/index.php/site/login
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 02:14:54 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/site/login
+---
+2013/03/09 02:15:47 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php
+---
+2013/03/09 02:17:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('update')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/upd...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/update
+---
+2013/03/09 02:23:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php
+---
+2013/03/09 02:23:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+---
+2013/03/09 02:28:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users
+---
+2013/03/09 02:28:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/ind...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/index
+---
+2013/03/09 02:28:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+---
+2013/03/09 02:28:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+---
+2013/03/09 02:28:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php
+---
+2013/03/09 02:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/admin
+---
+2013/03/09 02:29:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/admin
+---
+2013/03/09 02:29:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/admin
+---
+2013/03/09 02:29:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/admin
+---
+2013/03/09 02:29:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/create
+---
+2013/03/09 02:29:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/admin
+---
+2013/03/09 02:30:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/admin
+---
+2013/03/09 02:30:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/admin
+---
+2013/03/09 02:30:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/
+---
+2013/03/09 02:31:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/update
+---
+2013/03/09 02:31:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/
+---
+2013/03/09 02:31:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/Users/users/
+---
+2013/03/09 02:31:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/view
+---
+2013/03/09 02:31:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/view
+---
+2013/03/09 02:31:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/index
+---
+2013/03/09 02:31:33 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/Users/users/view
+---
+2013/03/09 02:31:34 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/view
+---
+2013/03/09 02:31:35 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/view
+---
+2013/03/09 02:32:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/view
+---
+2013/03/09 02:32:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\xampp\htdocs\yiit\framework\web\CController.php:336
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#10 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+---
+2013/03/09 02:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('users')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('users')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/Users/use...')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/Users/Users/users/view
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/view/id/8
+---
+2013/03/09 02:44:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/index
+---
+2013/03/09 02:44:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/index
+---
+2013/03/09 02:46:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('create')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/cre...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/create
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/index
+---
+2013/03/09 02:47:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('update')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/upd...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/update
+---
+2013/03/09 02:47:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view
+---
+2013/03/09 02:47:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/index
+---
+2013/03/09 02:47:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('create')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/cre...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/create
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/index
+---
+2013/03/09 02:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in D:\xampp\htdocs\yiit\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CController.php(270): CController->missingAction('register')
+#1 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('register')
+#2 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#3 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitest/index.php/site/register
+---
+2013/03/09 02:50:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 02:50:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('update')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/upd...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/update/id/3
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/admin
+---
+2013/03/09 02:50:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('view')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/vie...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/view/id/3
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/update/id/3
+---
+2013/03/09 03:02:46 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 D:\xampp\htdocs\yiitest\protected\views\site\index.php(13): CWebUser->__get('username')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', NULL, true)
+#4 D:\xampp\htdocs\yiit\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', NULL, true)
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(32): CController->render('index')
+#7 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#13 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitest/index.php/site/index
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/index
+---
+2013/03/09 03:14:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/ind...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/index
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 03:15:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users
+---
+2013/03/09 03:15:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Users/create".' in D:\xampp\htdocs\yiit\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/create')
+#1 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/index.php/Users/create
+---
+2013/03/09 03:15:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/ind...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/index
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 03:15:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 03:16:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/ind...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/index
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 03:16:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('update')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/upd...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/update
+---
+2013/03/09 03:17:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+---
+2013/03/09 03:19:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/ind...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/index
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/admin
+---
+2013/03/09 03:19:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/index
+---
+2013/03/09 03:20:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/ind...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/index
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/admin
+---
+2013/03/09 03:20:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/index
+---
+2013/03/09 03:20:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/ind...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/index
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 03:20:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/adm...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/admin
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/create
+---
+2013/03/09 03:24:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('create')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/cre...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/create
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/Users/users/admin
+---
+2013/03/09 03:25:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yiit\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yiit\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yiit\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yiit\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('create')
+#8 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('Users/users/cre...')
+#9 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/index.php/Users/users/create
+---
+2013/03/09 07:22:07 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.emlékezz rám" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\helpers\CHtml.php(2255): CComponent->__get('eml??kezz r??m')
+#1 D:\xampp\htdocs\yiit\framework\web\helpers\CHtml.php(1506): CHtml::resolveValue(Object(LoginForm), 'eml??kezz r??m')
+#2 D:\xampp\htdocs\yiit\framework\web\widgets\CActiveForm.php(747): CHtml::activeCheckBox(Object(LoginForm), 'eml??kezz r??m', Array)
+#3 D:\xampp\htdocs\yiitest\protected\views\site\login.php(43): CActiveForm->checkBox(Object(LoginForm), 'eml??kezz r??m')
+#4 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#5 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#6 D:\xampp\htdocs\yiit\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\yiit\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#9 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('login')
+#14 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yiitest/index.php/site/login
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/site/index
+---
+2013/03/09 07:25:36 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in D:\xampp\htdocs\yiit\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\yiit\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 D:\xampp\htdocs\yiitest\protected\views\site\index.php(15): CWebUser->__get('username')
+#2 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(126): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\yiit\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\xampp\htdocs...', NULL, true)
+#4 D:\xampp\htdocs\yiit\framework\web\CController.php(869): CBaseController->renderFile('D:\xampp\htdocs...', NULL, true)
+#5 D:\xampp\htdocs\yiit\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 D:\xampp\htdocs\yiitest\protected\controllers\SiteController.php(32): CController->render('index')
+#7 D:\xampp\htdocs\yiit\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 D:\xampp\htdocs\yiit\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\xampp\htdocs\yiit\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\xampp\htdocs\yiit\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(282): CController->run('')
+#12 D:\xampp\htdocs\yiit\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 D:\xampp\htdocs\yiit\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\yiitest\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitest/index.php
+HTTP_REFERER=http://localhost:8000/yiitest/index.php/site/login
+---

@@ -6,7 +6,8 @@ $this->breadcrumbs=array(
 	'About',
 );
 ?>
-<h1>About</h1>
+<h1>Információ</h1>
 
-<p>This is a "static" page. You may change the content of this page
-by updating the file <code><?php echo __FILE__; ?></code>.</p>
+<p>Ez az oldal a felhasználók menedzslését reprezentálja, 
+    melyet yii keretrendszer segítségével hoztam létre </p>
+<p>Takács Ádám</p>

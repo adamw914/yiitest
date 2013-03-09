@@ -32,17 +32,17 @@ class Users extends CActiveRecord
 	/**
 	 * @return array validation rules for model attributes.
 	 */
+        public $confpass;
 	public function rules()
 	{
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, password, email', 'required'),
+			array('username, password, email, confpass', 'required'),
 			array('username, password', 'length', 'max'=>60, 'min'=>5),
                         array('email', 'email','checkMX'=>true),
                         array('username, email','unique', 'className' => 'Users'),
-                        //array('username','unique', 'className' => 'Users'),
-                        //array('confpass', 'compare', 'compareAttribute'=>'password'),
+                        array('confpass', 'compare', 'compareAttribute'=>'password', 'message'=>'Password must be repeated exactly.'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, username, password, email', 'safe', 'on'=>'search'),
